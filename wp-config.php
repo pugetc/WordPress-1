@@ -29,7 +29,7 @@ define('DB_USER', $_SERVER['MYSQL_USER']);
 define('DB_PASSWORD', $_SERVER['MYSQL_PASSWORD']);
 
 /** MySQL hostname */
-define('DB_HOST', $_SERVER['wordpress-db-svc']);
+define('DB_HOST', $_SERVER['WORDPRESS_DB_HOST']);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
